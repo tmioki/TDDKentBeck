@@ -106,12 +106,6 @@ public class TestSample2 {
 		assertEquals(Money.dollar(20), result);
 	}
 	
-	@Test
-	public void test‹à’J‚³‚ñ(){
-		SampleTest obj = new SampleTest();
-		assertEquals(obj.sum(), 2);
-	}
-	
 //	@Test
 //	public void testPlusSameCurrencyReturnsMoney(){
 //		Expression sum = Money.dollar(1).plus(Money.dollar(1));
